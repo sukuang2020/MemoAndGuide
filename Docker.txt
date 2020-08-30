@@ -1,0 +1,16 @@
+docker images
+docker image ls
+
+docker rmi -f imageid
+
+#Tomcat
+docker pull tomcat
+docker container create --publish 8082:8080 --name my-tomcat-container tomcat
+docker container start my-tomcat-container
+docker container ls -a # it will list all the containers
+docker ps -a
+
+#copy your war file to container
+docker cd c:\xxxxx\yyyyyy.war your_contaniner_id:/usr/local/tomcat/webapps
+docker restart your_contaniner_id
+http://localhost:8082/yyyyyy
