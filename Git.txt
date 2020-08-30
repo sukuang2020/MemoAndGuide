@@ -1,0 +1,28 @@
+1	新建Repo
+2	打开git bash
+3	创建key
+	ssh-keygen -t rsa -C "mail address"
+	有提示就enter下去就行
+4	打开刚才做的key文件
+	C:\Users\xxxxxx\.ssh\id_rsa.pub
+5	添加到GitHub的SSH Key
+6	测试
+    ssh git@github.com
+    注意，你是仓库的主人你才能使用SSH连接，如果你不是仓库主人，只是某个项目的成员，那你只能使用HTTPS连接。
+
+
+
+git init
+git remote add origin git@github.com:sukuang2020/Github.git
+git add -A
+git commit -m "comment"
+git push origin master   第一次要加上-u参数
+
+git pull origin master
+
+mkdir foldername
+touch filename
+rm filename
+rm r foldername
+
+test

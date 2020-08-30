@@ -1,0 +1,8 @@
+1.DL
+　https://ngrok.com/download
+
+2.exeファイルへ移動
+　cd
+
+3.起動
+　ngrok http 8080
