@@ -12,5 +12,7 @@ docker ps -a
 
 #copy your war file to container
 docker cd c:\xxxxx\yyyyyy.war your_contaniner_id:/usr/local/tomcat/webapps
-docker restart your_contaniner_id
+docker restart tomcat9
 http://localhost:8082/yyyyyy
+
+docker stop tomcat9
