@@ -14,7 +14,7 @@
 
 git init
 git remote add origin git@github.com:sukuang2020/Github.git
-git add -A
+git add . -A
 git commit -m "comment"
 git push origin master   第一次要加上-u参数
 
